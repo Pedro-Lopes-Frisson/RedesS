@@ -1,0 +1,28 @@
+Jan 31 00:46:07.832 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 31 00:46:07.833 HYPERVISOR: Started on IP = localhost, TCP port = 33173.
+Jan 31 00:46:07.841 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 31 00:46:07.841 HYPERVISOR: exec_cmd: hypervisor working_dir /root/GNS3/projects/Mini-Projeto/project-files/dynamips 
+Jan 31 00:46:07.841 GENERAL: working_dir=/root/GNS3/projects/Mini-Projeto/project-files/dynamips
+Jan 31 00:46:07.841 HYPERVISOR: exec_cmd: hypervisor working_dir /root/GNS3/projects/Mini-Projeto/project-files/dynamips/9d20f300-a0aa-4445-8204-816cb67d138d 
+Jan 31 00:46:07.841 GENERAL: working_dir=/root/GNS3/projects/Mini-Projeto/project-files/dynamips/9d20f300-a0aa-4445-8204-816cb67d138d
+Jan 31 00:46:07.841 HYPERVISOR: exec_cmd: vm create Router2 5 c3725 
+Jan 31 00:46:07.842 VM: VM Router2 created.
+Jan 31 00:46:07.843 HYPERVISOR: exec_cmd: vm set_con_tcp_port Router2 5004 
+Jan 31 00:46:07.843 HYPERVISOR: exec_cmd: c3725 get_mac_addr Router2 
+Jan 31 00:46:07.843 HYPERVISOR: exec_cmd: vm set_disk0 Router2 0 
+Jan 31 00:46:07.843 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 31 00:46:07.843 HYPERVISOR: exec_cmd: vm set_idle_pc Router2 0x602361d8 
+Jan 31 00:46:07.844 HYPERVISOR: exec_cmd: vm set_ios Router2 /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jan 31 00:46:07.844 HYPERVISOR: exec_cmd: c3725 set_mac_addr Router2 c205.2818.0000 
+Jan 31 00:46:07.844 HYPERVISOR: exec_cmd: vm set_nvram Router2 256 
+Jan 31 00:46:07.844 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 31 00:46:07.844 HYPERVISOR: exec_cmd: vm slot_add_binding Router2 1 0 NM-1FE-TX 
+Jan 31 00:46:07.845 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 31 00:46:07.845 HYPERVISOR: exec_cmd: vm slot_add_binding Router2 2 0 NM-1FE-TX 
+Jan 31 00:46:07.845 HYPERVISOR: exec_cmd: vm set_con_tcp_port Router2 5004 
+Jan 31 00:46:10.325 HYPERVISOR: exec_cmd: nio create_udp udp-93821056-6de3-431f-b0b0-0114af134ffa 10086 127.0.0.1 10087 
+Jan 31 00:46:10.536 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router2 0 1 udp-93821056-6de3-431f-b0b0-0114af134ffa 
+Jan 31 00:46:10.536 HYPERVISOR: exec_cmd: vm get_status Router2 
+Jan 31 00:46:11.518 HYPERVISOR: exec_cmd: nio create_udp udp-4aecac64-d3d9-4d5c-a72d-78a834151881 10118 127.0.0.1 10119 
+Jan 31 00:46:11.518 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router2 0 0 udp-4aecac64-d3d9-4d5c-a72d-78a834151881 
+Jan 31 00:46:11.518 HYPERVISOR: exec_cmd: vm get_status Router2 

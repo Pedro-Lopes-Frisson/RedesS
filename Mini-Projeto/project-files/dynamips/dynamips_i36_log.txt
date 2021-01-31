@@ -1,0 +1,28 @@
+Jan 31 00:46:07.782 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 31 00:46:07.782 HYPERVISOR: Started on IP = localhost, TCP port = 59573.
+Jan 31 00:46:07.792 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 31 00:46:07.792 HYPERVISOR: exec_cmd: hypervisor working_dir /root/GNS3/projects/Mini-Projeto/project-files/dynamips 
+Jan 31 00:46:07.793 GENERAL: working_dir=/root/GNS3/projects/Mini-Projeto/project-files/dynamips
+Jan 31 00:46:07.793 HYPERVISOR: exec_cmd: hypervisor working_dir /root/GNS3/projects/Mini-Projeto/project-files/dynamips/4cac8948-7a09-46b7-95c1-3d187e37e0af 
+Jan 31 00:46:07.793 GENERAL: working_dir=/root/GNS3/projects/Mini-Projeto/project-files/dynamips/4cac8948-7a09-46b7-95c1-3d187e37e0af
+Jan 31 00:46:07.793 HYPERVISOR: exec_cmd: vm create ISP 4 c3725 
+Jan 31 00:46:07.795 VM: VM ISP created.
+Jan 31 00:46:07.795 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5003 
+Jan 31 00:46:07.796 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISP 
+Jan 31 00:46:07.796 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Jan 31 00:46:07.797 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 31 00:46:07.797 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x602361d8 
+Jan 31 00:46:07.798 HYPERVISOR: exec_cmd: vm set_ios ISP /root/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jan 31 00:46:07.799 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISP c204.7638.0000 
+Jan 31 00:46:07.799 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
+Jan 31 00:46:07.800 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 31 00:46:07.800 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 1 0 NM-1FE-TX 
+Jan 31 00:46:07.801 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 31 00:46:07.801 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 2 0 NM-1FE-TX 
+Jan 31 00:46:07.802 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5003 
+Jan 31 00:46:08.221 HYPERVISOR: exec_cmd: nio create_udp udp-57ac5674-2f52-444d-b465-7bb8a0171409 10032 127.0.0.1 10033 
+Jan 31 00:46:08.433 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-57ac5674-2f52-444d-b465-7bb8a0171409 
+Jan 31 00:46:08.433 HYPERVISOR: exec_cmd: vm get_status ISP 
+Jan 31 00:46:11.129 HYPERVISOR: exec_cmd: nio create_udp udp-486ae3cb-9360-4d4c-9c8c-a7b0a62c535d 10102 127.0.0.1 10103 
+Jan 31 00:46:11.129 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 1 udp-486ae3cb-9360-4d4c-9c8c-a7b0a62c535d 
+Jan 31 00:46:11.130 HYPERVISOR: exec_cmd: vm get_status ISP 
